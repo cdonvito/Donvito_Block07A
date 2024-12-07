@@ -1,1 +1,51 @@
-/*# sourceMappingURL=index.css.map */
+body {
+  background-image: url(Images/Books.jpg);
+  background-size: cover;
+}
+body h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 50px;
+}
+body h2 {
+  color: yellow;
+  text-align: center;
+  font-size: 35px;
+}
+body h3 {
+  color: yellow;
+  text-align: center;
+  font-size: 30px;
+  background-color: blue;
+  margin: 2vw 30vw;
+}
+body div {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  border-radius: 40px;
+}
+body div a {
+  color: rgb(0, 255, 0);
+  font-size: 30px;
+  margin-left: 12%;
+}
+body .Walden, body .Modoc, body .Alaska, body .Wild, body .Hobbit {
+  background-color: rgba(0, 0, 255, 0.35);
+  margin: 2vw 36vw;
+  height: 15vw;
+}
+body #Walden, body #Modoc, body #Alaska, body #Wild, body #Hobbit {
+  width: 7vw;
+  height: auto;
+  align-items: baseline;
+  padding: 1vw 1vw 1vw 3vw;
+}
+body footer {
+  vertical-align: bottom;
+  text-align: right;
+}
+body footer a {
+  font-size: 30px;
+  color: rgb(0, 255, 0);
+}/*# sourceMappingURL=index.css.map */

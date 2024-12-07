@@ -1,0 +1,62 @@
+$blue-color: rgba(0, 0, 255, 0.35);
+
+body {
+  background-image: url(Images/Books.jpg);
+  background-size: cover;
+
+  h1{
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  h2{
+    color: yellow;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  h3{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    margin: 2vw 30vw;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    border-radius: 40px;
+  }
+  
+    div a {
+      color: rgb(0, 255, 0);
+      font-size: 30px;
+      margin-left: 12%;
+    }
+
+    .Walden, .Modoc, .Alaska, .Wild, .Hobbit{
+      background-color: $blue-color;
+      margin: 2vw 36vw;
+      height: 15vw;
+    }
+
+    #Walden, #Modoc, #Alaska, #Wild, #Hobbit {
+      width: 7vw;
+      height: auto;
+      align-items: baseline;
+      padding: 1vw 1vw 1vw 3vw;
+    }
+
+    footer {
+      vertical-align: bottom;
+      text-align: right;
+    }
+      
+  footer a {
+        font-size: 30px;
+        color: rgb(0, 255, 0);
+  }
+}
