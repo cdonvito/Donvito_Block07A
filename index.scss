@@ -1,26 +1,44 @@
-$blue-color: rgba(0, 0, 255, 0.35);
+$blue-color_f: rgba(0, 0, 255, 0.5);
+$blue-color: rgb(0, 0, 255);
+$green-color_f: rgba(0, 255, 0, 0.5);
+$green-color: rgb(0, 255, 0);
+$red-color: rgb(255, 0, 0);
+$orange-color: rgb(255, 81, 0);
+$yellow-color: rgb(255, 225, 0);
+
+$font-30: 30px;
+$font-35: 35px;
+$font-50: 50px;
+
+$border20: 20px;
+$border40: 40px;
 
 body {
-  background-image: url(Images/Books.jpg);
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(Images/Books.jpg);
   background-size: cover;
 
-  h1{
-    color: yellow;
+  h1 {
+    color: $red-color;
     text-align: center;
-    font-size: 50px;
+    font-size: $font-50;
+    background-color: $blue-color_f;
   }
 
-  h2{
-    color: yellow;
+  h2 {
+    color: $orange-color;
     text-align: center;
-    font-size: 35px;
+    font-size: $font-35;
+    background-color: $blue-color_f;
   }
 
-  h3{
-    color: yellow;
+  h3 {
+    color: $yellow-color;
     text-align: center;
-    font-size: 30px;
-    background-color: blue;
+    font-size: $font-30;
+    background-color: $blue-color_f;
+    border-radius: $border20;
     margin: 2vw 30vw;
   }
 
@@ -28,35 +46,57 @@ body {
     display: flex;
     align-items: center;
     justify-content: first baseline;
-    border-radius: 40px;
+    border-radius: $border40;
   }
-  
-    div a {
-      color: rgb(0, 255, 0);
-      font-size: 30px;
-      margin-left: 12%;
-    }
 
-    .Walden, .Modoc, .Alaska, .Wild, .Hobbit{
-      background-color: $blue-color;
-      margin: 2vw 36vw;
-      height: 15vw;
-    }
+  div a {
+    color: $green-color;
+    font-size: $font-30;
+    margin-left: 12%;
+  }
 
-    #Walden, #Modoc, #Alaska, #Wild, #Hobbit {
-      width: 7vw;
-      height: auto;
-      align-items: baseline;
-      padding: 1vw 1vw 1vw 3vw;
-    }
+  .Walden,
+  .Modoc,
+  .Alaska,
+  .Wild,
+  .Hobbit {
+    background-color: $blue-color_f;
+    margin: 2vw 36vw;
+    height: 15vw;
+  }
 
-    footer {
-      vertical-align: bottom;
-      text-align: right;
-    }
-      
+  #Walden,
+  #Modoc,
+  #Alaska,
+  #Wild,
+  #Hobbit {
+    width: 7vw;
+    height: auto;
+    align-items: baseline;
+    padding: 1vw 1vw 1vw 3vw;
+  }
+
+  .detail_page {
+    color: $blue-color;
+  }
+
+  footer {
+    vertical-align: bottom;
+    text-align: right;
+  }
+
   footer a {
-        font-size: 30px;
-        color: rgb(0, 255, 0);
+    font-size: $font-30;
+    color: $green-color;
+    margin-left: 10%;
+  }
+
+  p {
+    color: navy;
+    font-size: $font-35;
+    margin: 15vw 25vw;
+    background-color: $green-color_f;
+    border-radius: $border40;
+    padding: 2vw;
   }
 }
