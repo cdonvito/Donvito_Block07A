@@ -1,6 +1,5 @@
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(Images/Books.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Images/Books.jpg);
   background-size: cover;
 }
 body h1 {
@@ -72,4 +71,4 @@ body p {
   background-color: rgba(0, 255, 0, 0.5);
   border-radius: 40px;
   padding: 2vw;
-} /*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
